@@ -186,6 +186,7 @@
         <property key="output-file-format" value="elf"/>
         <property key="relaxed-math" value="false"/>
         <property key="save-temps" value="true"/>
+        <appendMe value="-std=gnu99"/>
       </C30Global>
     </conf>
   </confs>

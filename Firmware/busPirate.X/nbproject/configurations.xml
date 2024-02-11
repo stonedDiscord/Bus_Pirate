@@ -398,7 +398,7 @@
         <property key="preserve-file" value=""/>
         <property key="relaxed-math" value="false"/>
         <property key="save-temps" value="true"/>
-        <appendMe value="-std=c99"/>
+        <appendMe value="-std=gnu99"/>
       </C30Global>
     </conf>
     <conf name="BusPirate_v4" type="2">
@@ -622,7 +622,7 @@
         <property key="preserve-file" value=""/>
         <property key="relaxed-math" value="false"/>
         <property key="save-temps" value="true"/>
-        <appendMe value="-std=c99"/>
+        <appendMe value="-std=gnu99"/>
       </C30Global>
     </conf>
   </confs>
