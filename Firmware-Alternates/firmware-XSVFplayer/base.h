@@ -17,6 +17,9 @@
 
 #ifndef BASE
 #define BASE
+
+#include <xc.h>
+
 //this sets the hardware version (v0a, or v1a)
 //#define BUSPIRATEV0A //http://hackaday.com/2008/11/19/how-to-the-bus-pirate-universal-serial-interface/
 //#define BUSPIRATEV1A //http://hackaday.com/2009/01/22/how-to-bus-pirate-v1-improved-universal-serial-interface/
