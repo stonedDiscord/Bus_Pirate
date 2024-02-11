@@ -352,12 +352,12 @@
         <property key="enable-pack-data" value="true"/>
         <property key="extra-lib-directories" value=""/>
         <property key="fill-flash-options-addr" value=""/>
-        <property key="fill-flash-options-const" value=""/>
-        <property key="fill-flash-options-how" value="0"/>
-        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-const" value="0xFFFFFFFF"/>
+        <property key="fill-flash-options-how" value="1"/>
+        <property key="fill-flash-options-inc-const" value=""/>
         <property key="fill-flash-options-increment" value=""/>
         <property key="fill-flash-options-seq" value=""/>
-        <property key="fill-flash-options-what" value="0"/>
+        <property key="fill-flash-options-what" value="1"/>
         <property key="general-code-protect" value="no_code_protect"/>
         <property key="general-write-protect" value="no_write_protect"/>
         <property key="generate-cross-reference-file" value="true"/>
@@ -576,12 +576,12 @@
         <property key="enable-pack-data" value="true"/>
         <property key="extra-lib-directories" value=""/>
         <property key="fill-flash-options-addr" value=""/>
-        <property key="fill-flash-options-const" value=""/>
-        <property key="fill-flash-options-how" value="0"/>
-        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-const" value="0xFFFFFFFF"/>
+        <property key="fill-flash-options-how" value="1"/>
+        <property key="fill-flash-options-inc-const" value=""/>
         <property key="fill-flash-options-increment" value=""/>
         <property key="fill-flash-options-seq" value=""/>
-        <property key="fill-flash-options-what" value="0"/>
+        <property key="fill-flash-options-what" value="1"/>
         <property key="general-code-protect" value="no_code_protect"/>
         <property key="general-write-protect" value="no_write_protect"/>
         <property key="generate-cross-reference-file" value="true"/>
