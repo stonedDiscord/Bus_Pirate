@@ -143,7 +143,7 @@
         <property key="fill-flash-options-what" value="1"/>
         <property key="general-code-protect" value="no_code_protect"/>
         <property key="general-write-protect" value="no_write_protect"/>
-        <property key="generate-cross-reference-file" value="false"/>
+        <property key="generate-cross-reference-file" value="true"/>
         <property key="heap-size" value=""/>
         <property key="input-libraries" value=""/>
         <property key="linker-stack" value="true"/>
