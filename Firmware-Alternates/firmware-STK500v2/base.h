@@ -15,6 +15,9 @@
  */
 #ifndef BASE 
 #define BASE
+
+#include <xc.h>
+
 #define BUSPIRATEV3 
 
 //these compile time options enable various features
