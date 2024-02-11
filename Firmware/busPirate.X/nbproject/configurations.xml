@@ -314,7 +314,7 @@
         <property key="scalar-model" value="small-scalar"/>
         <property key="use-cci" value="true"/>
         <property key="use-iar" value="false"/>
-        <appendMe value="-save-temps -finline"/>
+        <appendMe value="-finline"/>
       </C30>
       <C30-AR>
         <property key="additional-options-chop-files" value="false"/>
@@ -396,7 +396,7 @@
         <property key="preserve-all" value="false"/>
         <property key="preserve-file" value=""/>
         <property key="relaxed-math" value="false"/>
-        <property key="save-temps" value="false"/>
+        <property key="save-temps" value="true"/>
         <appendMe value="-std=c99"/>
       </C30Global>
     </conf>
@@ -537,7 +537,7 @@
         <property key="scalar-model" value="large-scalar"/>
         <property key="use-cci" value="true"/>
         <property key="use-iar" value="false"/>
-        <appendMe value="-save-temps -finline"/>
+        <appendMe value="-finline"/>
       </C30>
       <C30-AR>
         <property key="additional-options-chop-files" value="false"/>
@@ -619,7 +619,7 @@
         <property key="preserve-all" value="false"/>
         <property key="preserve-file" value=""/>
         <property key="relaxed-math" value="false"/>
-        <property key="save-temps" value="false"/>
+        <property key="save-temps" value="true"/>
         <appendMe value="-std=c99"/>
       </C30Global>
     </conf>
