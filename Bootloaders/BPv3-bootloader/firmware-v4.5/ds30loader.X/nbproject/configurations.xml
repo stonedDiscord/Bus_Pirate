@@ -128,6 +128,7 @@
         <property key="preprocessor-macros" value=""/>
         <property key="relax" value="false"/>
         <property key="warning-level" value="emit-warnings"/>
+        <appendMe value="-g"/>
       </C30-AS>
       <C30-LD>
         <property key="additional-options-use-response-files" value="false"/>
