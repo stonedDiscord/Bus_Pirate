@@ -423,7 +423,7 @@ void serviceuser(void) {
 
     mode_configuration.command_error = NO;
 
-    bool stop = NO;
+    volatile bool stop = NO;
 
 #ifdef BP_ENABLE_BASIC_SUPPORT
     if (bus_pirate_configuration.basic) {
