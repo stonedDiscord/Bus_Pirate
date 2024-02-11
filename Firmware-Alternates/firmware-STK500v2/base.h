@@ -15,8 +15,6 @@
  */
 #ifndef BASE 
 #define BASE
-#include <p24fxxxx.h>
-
 #define BUSPIRATEV3 
 
 //these compile time options enable various features

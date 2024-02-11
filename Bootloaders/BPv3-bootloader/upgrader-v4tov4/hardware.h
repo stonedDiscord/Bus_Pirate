@@ -20,8 +20,6 @@
 
 #ifndef BASE 
 #define BASE
-#include <p24fxxxx.h>
-
 // if you want debug select debug in the MPLAB ide!!!
 
 #define BPBLVERLOC		0xABFA

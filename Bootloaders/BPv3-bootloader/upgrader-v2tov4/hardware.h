@@ -20,8 +20,6 @@
 
 #ifndef BASE 
 #define BASE
-#include <p24fxxxx.h>
-
 //#define DEBUG //safe debug release, won't overwrite bootloader v2
 
 //this sets the hardware version
