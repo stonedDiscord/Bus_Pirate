@@ -165,7 +165,7 @@
         <property key="stack-size" value="16"/>
         <property key="symbol-stripping" value=""/>
         <property key="trace-symbols" value=""/>
-        <property key="warn-section-align" value="false"/>
+        <property key="warn-section-align" value="true"/>
       </C30-LD>
       <C30Global>
         <property key="common-include-directories" value=""/>
