@@ -13,12 +13,9 @@ jobs:
 
     - name: Configure
       run: |
-          /opt/mplabx/mplab_platform/bin/prjMakefilesGenerator.sh -v "${{ github.workspace }}/Firmware/busPirate.X"
+          cd Firmware/busPirate.X
+          mplabxBuildAll.py
           
-    - name: Build
-      run: |
-          make -C "${{ github.workspace }}/Firmware/busPirate.X" CONF="$build_config" build
-        
     - name: Upload Artifacts
       uses: actions/upload-artifact@v4
       with:
