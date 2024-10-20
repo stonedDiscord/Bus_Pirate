@@ -13,7 +13,7 @@ jobs:
 
     - name: Configure
       run: |
-          /opt/microchip/mplabx/v6.20/mplab_platform/bin/prjMakefilesGenerator.sh -v "${{ github.workspace }}/Firmware/busPirate.X"
+          /opt/microchip/mplabx/v6.20/mplab_platform/bin/prjMakefilesGenerator.sh -v "${{ github.workspace }}/Firmware/busPirate.X/nbproject"
 
     - name: Build
       run: |
