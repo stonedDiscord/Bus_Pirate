@@ -6,15 +6,18 @@ jobs:
   build:
     name: ubuntu-latest
     runs-on: ubuntu-latest
-    container: dataspeedinc/mplabx:latest
+    container: dataspeedinc/mplabx:mplab_6.20_xc32_4.45
  
     steps:
     - uses: actions/checkout@v4
 
+    - name: Configure
+      run: |
+          /opt/mplabx/mplab_platform/bin/prjMakefilesGenerator.sh -v "${{ github.workspace }}/Firmware/busPirate.X"
+          
     - name: Build
       run: |
-        cd Firmware
-        make
+          make -C "${{ github.workspace }}/Firmware/busPirate.X" CONF="$build_config" build
         
     - name: Upload Artifacts
       uses: actions/upload-artifact@v4
