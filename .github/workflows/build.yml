@@ -1,0 +1,22 @@
+name: MPLAB
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: ubuntu-latest
+    runs-on: ubuntu-latest
+    container: dataspeedinc/mplabx:latest
+ 
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Build
+      run: |
+        cd Firmware
+        make
+        
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        path: ./Firmware
